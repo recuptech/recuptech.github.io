@@ -310,9 +310,7 @@ ul.nostyle i {
 #hero-banner {
   overflow: hidden;
 
-  background: rgb(115, 170, 158);
-  background: linear-gradient(120deg, rgba(115, 170, 158, 1) 0%, rgba(25, 189, 155, 1) 35%, rgba(25, 189, 155, 1) 100%);
-
+  background: #19BD9B;
   height: 500px;
   color: #000000;
   border-bottom: 1px solid #BDBDBD;
@@ -613,6 +611,7 @@ ul.nostyle i {
 .img-responsive {
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 50px;
 }
 
 /*Team*/
@@ -631,6 +630,8 @@ ul.nostyle i {
   -webkit-filter: grayscale(100%);
   /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
+  display: flex;
+  justify-content: center;
 }
 
 #our-team .team-member .team-img img {
@@ -895,7 +896,8 @@ ul.nostyle i {
 
 /*Contact*/
 .contact-info {
-  padding: 60px 0;
+  padding: 0px 0;
+
 }
 
 .contact-info address {
@@ -925,6 +927,7 @@ ul.nostyle i {
 ********* Footer ******
 ************************/
 #footer {
+  margin-top: 20px;
   padding-top: 30px;
   padding-bottom: 30px;
   color: #fff;
@@ -958,6 +961,7 @@ ul.nostyle i {
   #footer .social-icons {
     float: right;
   }
+  
 }
 
 .form-control {
@@ -973,12 +977,21 @@ ul.nostyle i {
     background: rgba(255, 255, 255, 0.68);
     padding: 10px;
   }
+  
 
   #hero-banner p {
     font-size: 18px;
-    background: rgba(255, 255, 255, 0.68);
     padding: 10px;
   }
+  #hero-banner img {
+    width: 350px;
+  }
+
+  .team-img{
+    display: flex;
+    justify-content: center;
+  }
+    
 }
 
 /*#############################################*/
